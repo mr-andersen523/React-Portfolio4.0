@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import chaseabout from './chase-about.jpeg'
+import chaseabout from '../images/chase-about.jpeg'
 
 
 
