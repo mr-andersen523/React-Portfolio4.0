@@ -1,20 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import './font/Campton Book Bold.otf'
-import './font/Mont Heavy DEMO.otf'
-import './font/Galano Grotesque DEMO Bold.otf'
+
+import Header from './components/Header';
+import About from './components/About';
+import Work from './components/Work';
+import Contact from './components/Contact';
+import Navbar from './components/Navbar'
 
 function App() {
   return (
-    <div className="App" style={{fontFamily: "Galano Grotesque DEMO"}}>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p style={{fontSize: 50}}>
-          Chase <span style={{color: "#F3B95A"}}>Andersen</span>
-          {/* #49b2ad */}
-        </p>
-      </header>
+    <div className="App">
+      <Navbar></Navbar>
+      <div className="App-header">
+      <Header></Header>
+      </div>
+      
+      <div className='About'>
+        <About></About>
+      </div>
+      <div className='work'>
+        <Work></Work>
+      </div>
+      <div className='contact'>
+        <Contact></Contact>
+      </div>
     </div>
   );
 }
