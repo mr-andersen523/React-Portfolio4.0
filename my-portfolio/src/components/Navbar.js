@@ -10,6 +10,7 @@ class Navbar extends Component {
     render() { 
         return (<nav>
             <ul>
+
                 <li><Link
                     className='link'
                     activeClass="active"
@@ -20,33 +21,38 @@ class Navbar extends Component {
                     duration={500}
                     onClick={this.scrollToTop}
                 >Home</Link></li>
+
                 <li><Link
                     className='link'
                     activeClass="active"
                     to="About"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-120}
                     duration={500}
                 >About</Link></li>
+
                 <li><Link
                     className='link'
                     activeClass="active"
                     to="work"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-15}
                     duration={500}
                 >Work</Link></li>
+
+
                 <li><Link
                     className='link'
                     activeClass="active"
                     to="contact"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-60}
                     duration={500}
                 >Contact</Link></li>
+
             </ul>
         </nav> );
     }
