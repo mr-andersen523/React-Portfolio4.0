@@ -152,7 +152,7 @@ li .link:hover{
 }
 
 #resume-btn:hover {
-  color: #F3B95A;
+  color: rgba(231, 231, 231, 0.74);
   text-decoration:none
   }
 
