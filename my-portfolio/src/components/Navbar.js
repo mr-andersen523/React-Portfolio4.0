@@ -12,7 +12,7 @@ class Navbar extends Component {
             <ul>
 
                 <li><Link
-                    className='link'
+                    className='link hvr-grow'
                     activeClass="active"
                     to="home"
                     spy={true}
@@ -23,7 +23,7 @@ class Navbar extends Component {
                 >Home</Link></li>
 
                 <li><Link
-                    className='link'
+                    className='link hvr-grow' 
                     activeClass="active"
                     to="About"
                     spy={true}
@@ -33,7 +33,7 @@ class Navbar extends Component {
                 >About</Link></li>
 
                 <li><Link
-                    className='link'
+                    className='link hvr-grow'
                     activeClass="active"
                     to="work"
                     spy={true}
@@ -44,7 +44,7 @@ class Navbar extends Component {
 
 
                 <li><Link
-                    className='link'
+                    className='link hvr-grow'
                     activeClass="active"
                     to="contact"
                     spy={true}

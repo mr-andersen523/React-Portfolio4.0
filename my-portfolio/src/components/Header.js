@@ -21,7 +21,7 @@ class Header extends Component {
             <FontAwesomeIcon icon={faMapMarkerAlt}  /> Portland, OR
             <br></br>
             <br></br>
-            <a href='https://drive.google.com/file/d/1E0QkxEkOXJdASCym1vjTy8CzKUJdu7oN/view?usp=sharing' id='resume-btn' ><FontAwesomeIcon icon={faFilePdf}  /> Resume </a>
+            <a className="hvr-grow" href='https://drive.google.com/file/d/1E0QkxEkOXJdASCym1vjTy8CzKUJdu7oN/view?usp=sharing' id='resume-btn' ><FontAwesomeIcon icon={faFilePdf}  /> Resume </a>
                 </p>
     
             </Fade>
