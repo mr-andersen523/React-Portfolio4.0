@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import {faFilePdf } from '@fortawesome/free-regular-svg-icons'
+import {faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -17,7 +18,7 @@ class Header extends Component {
             <br></br>
             Full-Stack Developer
             <br></br>
-            Portland, OR
+            <FontAwesomeIcon icon={faMapMarkerAlt}  /> Portland, OR
             <br></br>
             <br></br>
             <a href='https://drive.google.com/file/d/1E0QkxEkOXJdASCym1vjTy8CzKUJdu7oN/view?usp=sharing' id='resume-btn' ><FontAwesomeIcon icon={faFilePdf}  /> Resume </a>
