@@ -13,7 +13,7 @@ class Header extends Component {
         <img src="../ca.svg"alt="" className='heading-background'></img>
             <Fade bottom>
             <p className='header-title'>
-            Chase Andersen
+            <span style={{color:'#F3B95A'}}>Chase</span> <span style={{color:'#49b2ad'}}>Andersen</span>
             <br></br>
             Full-Stack Developer
             <br></br>
