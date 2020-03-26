@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
-import { Card, CardDeck, CardColumns} from "react-bootstrap";
+import { Card, CardDeck, CardColumns, ListGroup, ListGroupItem} from "react-bootstrap";
 import burger from '../images/burger.png'
 import remote from '../images/remote.png'
-import lab from '../images/lab.png'
+import lab2 from '../images/lab2.png'
 import empteam from '../images/emp-team.png'
 import empdirect from '../images/emp-direct.png'
 import workout from '../images/workout.png'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
 
 
@@ -16,19 +20,21 @@ class Cards extends Component {
 <CardColumns>
 
           
-  <Card className="text-center p-3">
+  <Card className="text-center p-3" >
     <Card.Img variant="top" src={remote} />
     <blockquote className="blockquote mb-0 card-body">
     <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title style={{fontWeight:"bold"}}>Pass the Remote</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    Using relevant movie and rating databases we created a quick questionnaire that tailors your ideal movie or show and randomly generates a result.
     </Card.Text>
   </Card.Body>
+  <ListGroup className="list-group-flush">
+    <ListGroupItem>jQuery/JS/API</ListGroupItem>
+    </ListGroup>
   <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+    <Card.Link href='https://github.com/mr-andersen523'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
+    <Card.Link href="#">Heroku</Card.Link>
   </Card.Body>
     </blockquote>
   </Card>
@@ -38,15 +44,18 @@ class Cards extends Component {
   <Card.Img variant="top" src={workout} />
     <blockquote className="blockquote mb-0 card-body">
     <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title style={{fontWeight:"bold"}}>Fitness Tracker</Card.Title>
     <Card.Text>
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
     </Card.Text>
   </Card.Body>
+  <ListGroup className="list-group-flush">
+    <ListGroupItem>Mongo/Mongoose/Express</ListGroupItem>
+    </ListGroup>
   <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+  <Card.Link href='https://github.com/mr-andersen523'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
+    <Card.Link href="#">Heroku</Card.Link>
   </Card.Body>
     </blockquote>
   </Card>
@@ -56,15 +65,17 @@ class Cards extends Component {
   <Card.Img variant="top" src={empdirect} />
     <blockquote className="blockquote mb-0 card-body">
     <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title style={{fontWeight:"bold"}}>Employee Directory</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+          A simple directory of "employees" using the RandomUserAPI. The user is able to search for a specific employee or filter/sort people.
     </Card.Text>
   </Card.Body>
+  <ListGroup className="list-group-flush">
+    <ListGroupItem>React/API</ListGroupItem>
+    </ListGroup>
   <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+  <Card.Link href='https://github.com/mr-andersen523'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
+    <Card.Link href="https://employee-directory-hw.herokuapp.com/">Heroku</Card.Link>
   </Card.Body>
     </blockquote>
   </Card>
@@ -74,15 +85,17 @@ class Cards extends Component {
   <Card.Img variant="top" src={burger} />
     <blockquote className="blockquote mb-0 card-body">
     <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title style={{fontWeight:"bold"}}>Eat-Da-Burger</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    Eat-Da-Burger is a simple burger logger that lets users input the names of burgers they'd like to eat.
     </Card.Text>
   </Card.Body>
+  <ListGroup className="list-group-flush">
+    <ListGroupItem>Node/Express/MySQL/ORM</ListGroupItem>
+    </ListGroup>
   <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+  <Card.Link href='https://github.com/mr-andersen523/burger'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
+    <Card.Link href="https://eat-da-burgers-node-app.herokuapp.com/">Heroku</Card.Link>
   </Card.Body>
     </blockquote>
   </Card>
@@ -92,33 +105,37 @@ class Cards extends Component {
   <Card.Img variant="top" src={empteam} />
     <blockquote className="blockquote mb-0 card-body">
     <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title style={{fontWeight:"bold"}}>Team Generator</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    A Node application creates an engineering team with some simple prompts! Generates HTML page with results.
     </Card.Text>
   </Card.Body>
+  <ListGroup className="list-group-flush">
+    <ListGroupItem>Node</ListGroupItem>
+    </ListGroup>
   <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+  <Card.Link href='https://github.com/mr-andersen523'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
+    <Card.Link href="#">Heroku</Card.Link>
   </Card.Body>
     </blockquote>
   </Card>
 
 
   <Card className="text-center p-3">
-  <Card.Img variant="top" src={lab} />
+  <Card.Img variant="top" src={lab2} />
     <blockquote className="blockquote mb-0 card-body">
     <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+    <Card.Title style={{fontWeight:"bold"}}>theLab</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    A creative, collaborative, shared space for developers to come together and be a creator of their own ideas, get help from other developers to make those ideas come to life.
     </Card.Text>
   </Card.Body>
+  <ListGroup className="list-group-flush">
+    <ListGroupItem>UI Kit/Node/JS/Express<br></br>Passport/MySQL/Sequalize</ListGroupItem>
+    </ListGroup>
   <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+  <Card.Link href='https://github.com/mr-andersen523'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
+    <Card.Link href="#">Heroku</Card.Link>
   </Card.Body>
     </blockquote>
   </Card>
