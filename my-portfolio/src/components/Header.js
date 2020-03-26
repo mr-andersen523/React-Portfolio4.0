@@ -11,7 +11,7 @@ class Header extends Component {
 
     render() {
         return (<div>
-        <img src="../ca.svg"alt="" className='heading-background'></img>
+        <img id="header-logo" src="../ca.svg"alt="" className='heading-background'></img>
             <Fade bottom>
             <p className='header-title'>
             <span style={{color:'#F3B95A'}}>Chase</span> <span style={{color:'#49b2ad'}}>Andersen</span>

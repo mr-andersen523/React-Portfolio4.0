@@ -45,8 +45,12 @@ h1 {
 .heading-background{
   position: fixed;
   opacity: 0.7;
-  left:-0.01em;
-
+  left:-14em;
+  bottom: 1em
+}
+#header-logo{
+  height: 80%;
+  width: 100%
 }
 
 #contact-btn {
@@ -168,6 +172,16 @@ li .link:hover{
   height: 100%;
   background-color: white;
 }
+
+#reach-out {
+  color: gray;
+  font-weight: bold; 
+  margin-left: 4em;
+  text-align: left;
+  padding-top: 5em ; 
+  font-family:'Campton'; 
+  font-size:30px
+}
 .contact h1{
     font-family: 'Montserrat', sans-serif;
   font-size: 5em;
@@ -178,6 +192,15 @@ li .link:hover{
   margin: 3em
 }
 
+#icon-list {
+  padding-top: 5em;
+  margin-bottom: 6em;
+  text-align: center
+}
+
+.icon {
+  padding: 3em 3em 7em 3em
+}
 
 a:hover {
   color:black;
@@ -223,8 +246,40 @@ padding: 1em;
 margin-right: 0em;
 }
 
+
+nav{
+  font-family: 'Campton';
+  position:fixed;
+  left:50em;
+  top:2em;
+z-index: 100;
+}
+nav li{
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  padding-right: 10px;
+
+}
+nav li .link{
+  text-decoration: none;
+  padding:1em;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+li .link:hover{
+  opacity: 1;
+}
+
 .heading-background{
-  display: none;
+  position: fixed;
+  opacity: 0.7;
+  left:-0.01em;
+  top:1em
 }
 nav{
   display: none;
@@ -237,7 +292,7 @@ nav{
 }
 .about{position: relative;
       display: flex;
-      top:-30em;
+      top:-50em;
 }
 .about img{
   display: none
@@ -261,10 +316,6 @@ nav{
   grid-template-columns: 1fr;
   grid-gap: 5em;
 }
-.project img{
-width: 45em;  
-height: 45em;
-}
 
 .contact{
   top:15em;
@@ -273,6 +324,15 @@ height: 45em;
 .contact h1{
   font-size: 4em;
 }
+
+#reach-out {
+  color: gray;
+  font-weight:bold; 
+  font-family:'Campton'; 
+  font-size: 3em;
+
+}
+
 .contact .email{
   font-size: 3.5em;
 }

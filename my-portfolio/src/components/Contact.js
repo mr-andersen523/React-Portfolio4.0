@@ -11,7 +11,7 @@ class Contact extends Component {
     render() { 
         return (  
         <div>
-        <p style={{color: "gray", fontWeight:"bold", marginLeft:"11em", textAlign:"left",paddingTop:"5em", fontFamily:'Campton', fontSize:"30px"}}>
+        <p id="reach-out">
                 <Fade bottom cascade> Reach out to me!</Fade>
         </p>
         <Fade bottom>
@@ -19,15 +19,16 @@ class Contact extends Component {
             <h1 style={{textAlign:"center"}} className="hvr-grow"><a href="mailto:chasea523@gmail.com?Subject=Hello!" id="email">chasea523@gmail.com</a></h1>
                 <br></br>
                 <br></br>
-            <ul style={{ paddingTop:"5em", marginBottom:"6em", textAlign:"center"}}>
                 
-                <li ><a className="hvr-grow" href='https://github.com/mr-andersen523' ><FontAwesomeIcon icon={['fab', 'github']} size="3x" /> </a></li>
-                <li><a className="hvr-grow" href='https://www.linkedin.com/in/chase-andersen-26275290/'><FontAwesomeIcon icon={['fab', 'linkedin']} size="3x"/> </a></li>
-                <li><a className="hvr-grow" href='https://codepen.io/mr-andersen523'><FontAwesomeIcon icon={['fab', 'codepen']} size="3x" /> </a></li>
-                <li><a className="hvr-grow" href='https://dribbble.com/mr-andersen523'><FontAwesomeIcon icon={['fab', 'dribbble']} size="3x" /> </a></li>
-                <li><a className="hvr-grow" href='https://www.instagram.com/mr_andersen523/'><FontAwesomeIcon icon={['fab', 'instagram']} size="3x" /> </a></li>
-                <li><a className="hvr-grow" href='https://www.behance.net/chaseandersen'><FontAwesomeIcon icon={['fab', 'behance']} size="3x" /> </a></li>
-            </ul>
+                <span id="icon-list">
+                <a className="hvr-grow icon" href='https://github.com/mr-andersen523' ><FontAwesomeIcon icon={['fab', 'github']} size="3x" /> </a>
+                <a className="hvr-grow icon" href='https://www.linkedin.com/in/chase-andersen-26275290/'><FontAwesomeIcon icon={['fab', 'linkedin']} size="3x"/> </a>
+                <a className="hvr-grow icon" href='https://codepen.io/mr-andersen523'><FontAwesomeIcon icon={['fab', 'codepen']} size="3x" /> </a>
+                <a className="hvr-grow icon" href='https://dribbble.com/mr-andersen523'><FontAwesomeIcon icon={['fab', 'dribbble']} size="3x" /> </a>
+                <a className="hvr-grow icon" href='https://www.instagram.com/mr_andersen523/'><FontAwesomeIcon icon={['fab', 'instagram']} size="3x" /> </a>
+                <a className="hvr-grow icon" href='https://www.behance.net/chaseandersen'><FontAwesomeIcon icon={['fab', 'behance']} size="3x" /> </a>
+                </span>
+        
         </div>
         </Fade>
         </div>);
