@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import {faFilePdf } from '@fortawesome/free-regular-svg-icons'
 
 
 
@@ -18,8 +21,10 @@ class Header extends Component {
             <br></br>
             Portland, OR
             <br></br>
-                    <button href="mailto:chasea523@gmail.com?Subject=Hello!" id="contact-btn">Contact</button>
+            <hr></hr>
+            <a href='https://drive.google.com/file/d/1E0QkxEkOXJdASCym1vjTy8CzKUJdu7oN/view?usp=sharing' id='resume-btn' ><FontAwesomeIcon icon={faFilePdf}  /> Resume </a>
                 </p>
+    
             </Fade>
 
 

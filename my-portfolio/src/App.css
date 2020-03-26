@@ -65,7 +65,9 @@ margin-right: 50em;
 #contact-btn {
 font-family: 'Campton';
 border-radius: 20px;
-font-size: 30%;
+font-size: 20px;
+background: white;
+padding: 8px
 }
 
 
@@ -183,6 +185,14 @@ li .link:hover{
   margin-bottom: 10px; /* Added */
 }
 
+#resume-btn:hover {
+  color: #F3B95A;
+  text-decoration:none
+  }
+
+  #resume-btn {
+    color: white;
+    }
 .contact{
   position: relative;
   top:0;
