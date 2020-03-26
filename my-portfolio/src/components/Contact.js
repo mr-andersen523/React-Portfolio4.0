@@ -19,7 +19,7 @@ class Contact extends Component {
             <h1 style={{textAlign:"center"}}><a href="mailto:chasea523@gmail.com?Subject=Hello!" id="email">chasea523@gmail.com</a></h1>
                 <br></br>
                 <br></br>
-            <ul style={{ paddingTop:"5em", marginBottom:"2em", textAlign:"center"}}>
+            <ul style={{ paddingTop:"5em", marginBottom:"6em", textAlign:"center"}}>
                 
                 <li><a href='https://github.com/mr-andersen523'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </a></li>
                 <li><a href='https://www.linkedin.com/in/chase-andersen-26275290/'><FontAwesomeIcon icon={['fab', 'linkedin']} size="2x"/> </a></li>
