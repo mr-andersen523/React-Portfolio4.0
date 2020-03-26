@@ -10,7 +10,7 @@ class About extends Component {
             <div className='about-content'>
             <h1><Fade bottom cascade>About.</Fade></h1>
             <Fade bottom>
-                    <p>Portland based since 2014. Completed University of Oregon's Full Stack Development Bootcamp in April, 2020. Very eager to begin my career. I have expressed a strong affinity for CSS, Design, UI, Front-End just in general. </p>
+                    <p>Portland based since 2014. Completed University of Oregon's Full Stack Development Bootcamp in April, 2020. Very eager to begin my career. I have expressed a strong affinity for CSS, Design, UI, and all things Front-End. </p>
                     <p>Exposed to Node, JS, jQuery, mySQL, Robo3T, MongoDB, ReactJS, Redux, Python, C#, Java, PHP</p>
             </Fade>
             </div>
