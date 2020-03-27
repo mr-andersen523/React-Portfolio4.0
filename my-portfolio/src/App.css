@@ -150,9 +150,9 @@ li .link:hover{
 
 
 #cards {
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
-  margin-bottom: 10px; /* Added */
+  float: none;
+  margin: 5px 20px; 
+  
 }
 
 .card-deck-wrapper:nth-child(2) {
