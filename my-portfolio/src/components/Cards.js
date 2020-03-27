@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardColumns, ListGroup, ListGroupItem} from "react-bootstrap";
+import { Card, CardDeck, Row, ListGroup, ListGroupItem} from "react-bootstrap";
 import burger from '../images/burger.png'
 import remote from '../images/remote.png'
 import lab2 from '../images/lab2.png'
@@ -15,12 +15,13 @@ class Cards extends Component {
     render() { 
         return (
 
-<CardColumns>
+<>
+<Row>
+<CardDeck>
 
           
   <Card className="text-center p-3" >
     <Card.Img variant="top" src={remote} />
-    <blockquote className="blockquote mb-0 card-body">
     <Card.Body>
     <Card.Title style={{fontWeight:"bold"}}>Pass the Remote</Card.Title>
     <Card.Text>
@@ -30,17 +31,15 @@ class Cards extends Component {
   <ListGroup className="list-group-flush">
     <ListGroupItem>jQuery/JS/API</ListGroupItem>
     </ListGroup>
-  <Card.Body>
+  <Card.Footer>
     <Card.Link className="hvr-grow" href='https://github.com/mr-andersen523/pass-the-remote'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
     <Card.Link className="hvr-grow" href="https://mr-andersen523.github.io/pass-the-remote/">View</Card.Link>
-  </Card.Body>
-    </blockquote>
+  </Card.Footer>
   </Card>
 
 
   <Card className="text-center p-3">
   <Card.Img variant="top" src={workout} />
-    <blockquote className="blockquote mb-0 card-body">
     <Card.Body>
     <Card.Title style={{fontWeight:"bold"}}>Fitness Tracker</Card.Title>
     <Card.Text>
@@ -51,17 +50,15 @@ class Cards extends Component {
   <ListGroup className="list-group-flush">
     <ListGroupItem>Mongo/Mongoose/Express</ListGroupItem>
     </ListGroup>
-  <Card.Body>
+  <Card.Footer>
   <Card.Link className="hvr-grow" href='https://github.com/mr-andersen523/homework17'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
     <Card.Link className="hvr-grow" href="https://fitness-tracker-hw.herokuapp.com/">Heroku</Card.Link>
-  </Card.Body>
-    </blockquote>
+  </Card.Footer>
   </Card>
 
 
   <Card className="text-center p-3">
   <Card.Img variant="top" src={empdirect} />
-    <blockquote className="blockquote mb-0 card-body">
     <Card.Body>
     <Card.Title style={{fontWeight:"bold"}}>Employee Directory</Card.Title>
     <Card.Text>
@@ -71,17 +68,24 @@ class Cards extends Component {
   <ListGroup className="list-group-flush">
     <ListGroupItem>React/API</ListGroupItem>
     </ListGroup>
-  <Card.Body>
+  <Card.Footer>
   <Card.Link className="hvr-grow" href='https://github.com/mr-andersen523/homework19'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
     <Card.Link className="hvr-grow" href="https://employee-directory-hw.herokuapp.com/">Heroku</Card.Link>
-  </Card.Body>
-    </blockquote>
+  </Card.Footer>
   </Card>
+
+
+  </CardDeck>
+        </Row>
+
+<br></br>
+
+        <Row>
+<CardDeck>
 
 
   <Card className="text-center p-3">
   <Card.Img variant="top" src={burger} />
-    <blockquote className="blockquote mb-0 card-body">
     <Card.Body>
     <Card.Title style={{fontWeight:"bold"}}>Eat-Da-Burger</Card.Title>
     <Card.Text>
@@ -91,17 +95,15 @@ class Cards extends Component {
   <ListGroup className="list-group-flush">
     <ListGroupItem>Node/Express/MySQL/ORM</ListGroupItem>
     </ListGroup>
-  <Card.Body>
+  <Card.Footer>
   <Card.Link className="hvr-grow" href='https://github.com/mr-andersen523/burger'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
     <Card.Link className="hvr-grow" href="https://eat-da-burgers-node-app.herokuapp.com/">Heroku</Card.Link>
-  </Card.Body>
-    </blockquote>
+  </Card.Footer>
   </Card>
 
 
   <Card className="text-center p-3">
   <Card.Img variant="top" src={empteam} />
-    <blockquote className="blockquote mb-0 card-body">
     <Card.Body>
     <Card.Title style={{fontWeight:"bold"}}>Team Generator</Card.Title>
     <Card.Text>
@@ -111,16 +113,14 @@ class Cards extends Component {
   <ListGroup className="list-group-flush">
     <ListGroupItem>Node</ListGroupItem>
     </ListGroup>
-  <Card.Body>
+  <Card.Footer>
   <Card.Link className="hvr-grow" href='https://github.com/mr-andersen523/homework10'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
-  </Card.Body>
-    </blockquote>
+  </Card.Footer>
   </Card>
 
 
   <Card className="text-center p-3">
   <Card.Img variant="top" src={lab2} />
-    <blockquote className="blockquote mb-0 card-body">
     <Card.Body>
     <Card.Title style={{fontWeight:"bold"}}>theLab</Card.Title>
     <Card.Text>
@@ -130,87 +130,20 @@ class Cards extends Component {
   <ListGroup className="list-group-flush">
     <ListGroupItem>UI Kit/Node/JS/Express<br></br>Passport/MySQL/Sequalize</ListGroupItem>
     </ListGroup>
-  <Card.Body>
+  <Card.Footer>
   <Card.Link className="hvr-grow" href='https://github.com/programmerkim/theLab'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
     <Card.Link className="hvr-grow" href="#">Heroku</Card.Link>
-  </Card.Body>
-    </blockquote>
+  </Card.Footer>
   </Card>
   
-</CardColumns>
-
-
-//             <CardDeck>
-
-//   <Card>
-//     <Card.Img variant="top" src={remote} />
-//     <Card.Body>
-//       <Card.Title>Card title</Card.Title>
-//       <Card.Text>
-//         This is a wider card with supporting text below as a natural lead-in to
-//         additional content. This card has even longer content than the first to
-//         show that equal height action.
-//       </Card.Text>
-//     </Card.Body>
-//     <Card.Footer>
-//       <small className="text-muted">Last updated 3 mins ago</small>
-//     </Card.Footer>
-//   </Card>
-
-
-//   <Card>
-//     <Card.Img variant="top" src={burger} />
-//     <Card.Body>
-//       <Card.Title>Card title</Card.Title>
-//       <Card.Text>
-//         This is a wider card with supporting text below as a natural lead-in to
-//         additional content. This card has even longer content than the first to
-//         show that equal height action.
-//       </Card.Text>
-//     </Card.Body>
-//     <Card.Footer>
-//       <small className="text-muted">Last updated 3 mins ago</small>
-//     </Card.Footer>
-//   </Card>
-
-
-//   <Card>
-//     <Card.Img variant="top" src={workout} />
-//     <Card.Body>
-//       <Card.Title>Card title</Card.Title>
-//       <Card.Text>
-//         This is a wider card with supporting text below as a natural lead-in to
-//         additional content. This card has even longer content than the first to
-//         show that equal height action.
-//       </Card.Text>
-//     </Card.Body>
-//     <Card.Footer>
-//       <small className="text-muted">Last updated 3 mins ago</small>
-//     </Card.Footer>
-//   </Card>
-
-//   <Card>
-//     <Card.Img variant="top" src={workout} />
-//     <Card.Body>
-//       <Card.Title>Card title</Card.Title>
-//       <Card.Text>
-//         This is a wider card with supporting text below as a natural lead-in to
-//         additional content. This card has even longer content than the first to
-//         show that equal height action.
-//       </Card.Text>
-//     </Card.Body>
-//     <Card.Footer>
-//       <small className="text-muted">Last updated 3 mins ago</small>
-//     </Card.Footer>
-//   </Card>
-
-
-
-// </CardDeck>
-
+  </CardDeck>
+    </Row>
+      </>
 
         );
     }
 }
 
 export default Cards;
+
+

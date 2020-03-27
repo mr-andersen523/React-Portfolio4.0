@@ -155,6 +155,10 @@ li .link:hover{
   margin-bottom: 10px; /* Added */
 }
 
+.card-deck-wrapper:nth-child(2) {
+  margin-top: 20px;
+}
+
 #resume-btn:hover {
   color: white;
   text-decoration:none;
