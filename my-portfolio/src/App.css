@@ -50,16 +50,11 @@ h1 {
 }
 #header-logo{
   height: 80%;
-  width: 100%
+  width: 100%;
+    -webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+  filter: drop-shadow(10px 15px 9px rgba(22, 21, 21, 0.9));
 }
 
-#contact-btn {
-font-family: 'Campton';
-border-radius: 20px;
-font-size: 20px;
-background: white;
-padding: 8px
-}
 
 
 nav{
@@ -74,6 +69,8 @@ nav li{
   cursor: pointer;
   color: white;
   padding-right: 10px;
+  -webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+  filter: drop-shadow(10px 10px 7px rgba(22, 21, 21, 0.9));
 
 }
 nav li .link{
@@ -128,7 +125,9 @@ li .link:hover{
   border-radius: 200px;
   border-width: 5px;
   border-style: solid;
-  border-color: #49b2ad 
+  border-color: #49b2ad;
+  -webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+  filter: drop-shadow(10px 10px 7px rgba(22, 21, 21, 0.9));
 
 }
 .work{
@@ -151,7 +150,9 @@ li .link:hover{
 
 #cards {
   float: none;
-  margin: 5px 20px; 
+  margin: 5px 20px;
+  -webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+  filter: drop-shadow(10px 10px 7px rgba(22, 21, 21, 0.9));
   
 }
 
@@ -166,6 +167,8 @@ li .link:hover{
 
   #resume-btn {
     color: white;
+    -webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+    filter: drop-shadow(10px 15px 9px rgba(22, 21, 21, 0.9));
     }
 .contact{
   position: relative;
@@ -189,6 +192,8 @@ li .link:hover{
 .contact h1{
     font-family: 'Montserrat', sans-serif;
   font-size: 5em;
+  -webkit-filter: drop-shadow(3px 3px 10px rgba(0,0,0,0.9));
+  filter: drop-shadow(14px 14px 10px rgba(197, 192, 192, 0.9));
 }
 
 .contact li{
@@ -203,7 +208,9 @@ li .link:hover{
 }
 
 .icon {
-  padding: 3em 3em 7em 3em
+  padding: 3em 3em 7em 3em;
+  -webkit-filter: drop-shadow(10px 10px 7px rgba(0,0,0,0.9));
+  filter: drop-shadow(14px 14px 5px rgba(197, 192, 192, 0.9));
 }
 
 a:hover {
