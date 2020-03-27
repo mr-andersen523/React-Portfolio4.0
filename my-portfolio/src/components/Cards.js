@@ -31,8 +31,8 @@ class Cards extends Component {
     <ListGroupItem>jQuery/JS/API</ListGroupItem>
     </ListGroup>
   <Card.Body>
-    <Card.Link href='https://github.com/mr-andersen523/pass-the-remote'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
-    <Card.Link href="https://mr-andersen523.github.io/pass-the-remote/">View</Card.Link>
+    <Card.Link className="hvr-grow" href='https://github.com/mr-andersen523/pass-the-remote'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
+    <Card.Link className="hvr-grow" href="https://mr-andersen523.github.io/pass-the-remote/">View</Card.Link>
   </Card.Body>
     </blockquote>
   </Card>
@@ -52,8 +52,8 @@ class Cards extends Component {
     <ListGroupItem>Mongo/Mongoose/Express</ListGroupItem>
     </ListGroup>
   <Card.Body>
-  <Card.Link href='https://github.com/mr-andersen523/homework17'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
-    <Card.Link href="https://fitness-tracker-hw.herokuapp.com/">Heroku</Card.Link>
+  <Card.Link className="hvr-grow" href='https://github.com/mr-andersen523/homework17'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
+    <Card.Link className="hvr-grow" href="https://fitness-tracker-hw.herokuapp.com/">Heroku</Card.Link>
   </Card.Body>
     </blockquote>
   </Card>
@@ -72,8 +72,8 @@ class Cards extends Component {
     <ListGroupItem>React/API</ListGroupItem>
     </ListGroup>
   <Card.Body>
-  <Card.Link href='https://github.com/mr-andersen523/homework19'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
-    <Card.Link href="https://employee-directory-hw.herokuapp.com/">Heroku</Card.Link>
+  <Card.Link className="hvr-grow" href='https://github.com/mr-andersen523/homework19'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
+    <Card.Link className="hvr-grow" href="https://employee-directory-hw.herokuapp.com/">Heroku</Card.Link>
   </Card.Body>
     </blockquote>
   </Card>
@@ -92,8 +92,8 @@ class Cards extends Component {
     <ListGroupItem>Node/Express/MySQL/ORM</ListGroupItem>
     </ListGroup>
   <Card.Body>
-  <Card.Link href='https://github.com/mr-andersen523/burger'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
-    <Card.Link href="https://eat-da-burgers-node-app.herokuapp.com/">Heroku</Card.Link>
+  <Card.Link className="hvr-grow" href='https://github.com/mr-andersen523/burger'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
+    <Card.Link className="hvr-grow" href="https://eat-da-burgers-node-app.herokuapp.com/">Heroku</Card.Link>
   </Card.Body>
     </blockquote>
   </Card>
@@ -112,7 +112,7 @@ class Cards extends Component {
     <ListGroupItem>Node</ListGroupItem>
     </ListGroup>
   <Card.Body>
-  <Card.Link href='https://github.com/mr-andersen523/homework10'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
+  <Card.Link className="hvr-grow" href='https://github.com/mr-andersen523/homework10'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
   </Card.Body>
     </blockquote>
   </Card>
@@ -131,8 +131,8 @@ class Cards extends Component {
     <ListGroupItem>UI Kit/Node/JS/Express<br></br>Passport/MySQL/Sequalize</ListGroupItem>
     </ListGroup>
   <Card.Body>
-  <Card.Link href='https://github.com/programmerkim/theLab'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
-    <Card.Link href="#">Heroku</Card.Link>
+  <Card.Link className="hvr-grow" href='https://github.com/programmerkim/theLab'><FontAwesomeIcon icon={['fab', 'github']} size="2x" /> </Card.Link>
+    <Card.Link className="hvr-grow" href="#">Heroku</Card.Link>
   </Card.Body>
     </blockquote>
   </Card>
