@@ -43,8 +43,7 @@ class Cards extends Component {
     <Card.Body>
     <Card.Title style={{fontWeight:"bold"}}>Fitness Tracker</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      Track your daily workouts! Log your excercises and have them display your progress to your stats page, using Plotly.
     </Card.Text>
   </Card.Body>
   <ListGroup className="list-group-flush">
