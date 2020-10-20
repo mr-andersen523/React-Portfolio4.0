@@ -22,11 +22,9 @@ class Contact extends Component {
                 
                 <span id="icon-list">
                 <a className="hvr-grow icon" href='https://github.com/mr-andersen523' ><FontAwesomeIcon icon={['fab', 'github']} size="3x" /> </a>
-                <a className="hvr-grow icon" href='https://www.linkedin.com/in/chase-andersen-26275290/'><FontAwesomeIcon icon={['fab', 'linkedin']} size="3x"/> </a>
+                <a className="hvr-grow icon" href='https://www.linkedin.com/in/chase-andersen/'><FontAwesomeIcon icon={['fab', 'linkedin']} size="3x"/> </a>
                 <a className="hvr-grow icon" href='https://codepen.io/mr-andersen523'><FontAwesomeIcon icon={['fab', 'codepen']} size="3x" /> </a>
-                <a className="hvr-grow icon" href='https://dribbble.com/mr-andersen523'><FontAwesomeIcon icon={['fab', 'dribbble']} size="3x" /> </a>
                 <a className="hvr-grow icon" href='https://www.instagram.com/mr_andersen523/'><FontAwesomeIcon icon={['fab', 'instagram']} size="3x" /> </a>
-                <a className="hvr-grow icon" href='https://www.behance.net/chaseandersen'><FontAwesomeIcon icon={['fab', 'behance']} size="3x" /> </a>
                 </span>
         
         </div>
